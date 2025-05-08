@@ -1,0 +1,39 @@
+# Ignorar archivos de compilación e instalación de ROS 2
+build/
+install/
+log/
+
+# Ignorar archivos temporales de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar entornos virtuales
+venv/
+env/
+.venv/
+.env/
+
+# Ignorar archivos y carpetas de configuración de Visual Studio Code
+.vscode/
+
+# Ignorar archivos de configuración de JetBrains (PyCharm, etc.)
+.idea/
+
+# Ignorar archivos temporales del sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de caché de CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Ignorar archivos de log o trazas
+*.log
+
+# Ignorar archivos de pruebas
+*.pytest_cache/
+
